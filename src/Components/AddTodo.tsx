@@ -7,7 +7,7 @@ export const AddTodo = ({
 }: AddTodoProps) => (
   <div>
     <div className="flex justify-center my-10">
-      <h1 className="text-4xl text-green-600">Todo App</h1>
+      <h1 className="text-4xl text-yellow-600">Todo App</h1>
     </div>
     <form className="flex justify-between w-full" onSubmit={handleSubmitTodo}>
       <input
